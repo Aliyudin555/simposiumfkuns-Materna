@@ -41,7 +41,7 @@ const timelines: TimelineAbstractItemType[] = [
         desc: "Additional Wave abstract submission",
         dateStart: "2026-07-29T00:00:00",
         dateEnd: "2026-08-04T23:59:59"
-        // Tambahkan label: "IDR XXX.XXX" di sini jika ada harganya
+
     },
     {
         title: <div>August 22<sup>nd</sup>, 2026</div>,

@@ -3,7 +3,7 @@
 import Countdown from '@/components/countdown';
 import Link from 'next/link';
 import Image from 'next/image';
-import BannerText from "@/public/banner/banner_text.png";
+import BannerText from "@/public/banner/Logo.png";
 import WorkshopImg_1 from "@/public/poster/workshop_1.png";
 import WorkshopImg_2 from "@/public/poster/workshop_2.png";
 import SymposiumImg from "@/public/poster/symposium.png";
@@ -50,7 +50,7 @@ export default function Home() {
           <Image 
             src={ BannerText } 
             alt="MATERNA Logo Text"
-            className="md:w-[520px] w-80 my-2 drop-shadow-lg" /* Diperbesar */
+            className="md:w-[820px] w-80 my-2 drop-shadow-lg" /* Diperbesar */
             priority />
           
           <div className="flex flex-col items-center gap-3 mt-2 text-[oklch(0.52_0.16_14.92)]">
@@ -82,7 +82,7 @@ export default function Home() {
 
           <div className="flex md:flex-row flex-col justify-center items-center gap-6 md:gap-10 w-full max-w-3xl">
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd2FR-ZQDR7fi_NJcEWwkIE4EjNwhuzDPgRGkFa3vzp4uok6g/viewform?usp=sharing&ouid=115225023739085924102"
+              href="https://forms.gle/P2DjBVw2iugz7b6n6"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full md:w-auto md:px-24 text-center py-4 px-10 text-base bg-theme-orange shadow-theme-orange/30 shadow-2xl hover:bg-theme-orange-dark rounded-full font-bold text-white transition-all transform hover:scale-105 hover:-translate-y-1"

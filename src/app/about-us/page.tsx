@@ -1,31 +1,26 @@
 import Image from "next/image";
-import PearlsLogo from "@/public/logo/pearls/about_us.png";
+import MATERNALogo from "@/public/banner/banner_logo.png";
 
 export default function AboutUs() {
   return (
     <div className="flex flex-col">
-      <div className="py-8 flex justify-center items-center theme-gradient-v3">
-        <div className="text-white font-bold lg:text-3xl text-2xl">ABOUT PEARLS</div>
+      {/* Bagian Header Tetap Putih (seperti request sebelumnya) */}
+      <div className="py-8 flex justify-center items-center bg-white">
+        <div className="text-[#801313] font-bold lg:text-3xl text-2xl">ABOUT MATERNA</div>
         <Image 
-          className="lg:max-w-24 max-w-12 lg:mx-8 mx-4"
-          src={ PearlsLogo } 
-          alt="Pearls Logo" />
+          className="lg:max-w-44 max-w-32 lg:mx-8 mx-4"
+          src={ MATERNALogo } 
+          alt="MATERNA Logo" 
+        />
       </div>
-      <div className="flex flex-col gap-2 min-h-screen bg-white lg:px-18 lg:py-8 md:p-8 p-4 text-[#134D80] text-justify text-base/8">
-        <div className="indent-12">
-          Pediatric Emergency Response and Life-Saving Strategies (PEARLS)
-          appears at the 219<sup>th</sup> Hippocratic Oath Symposium from the 
-          Faculty of Medicine of Sebelas Maret University. PEARLS provides the 
-          opportunity to dynamically discuss the latest advancements in 
-          addressing pediatric emergencies. Through engaging discussions and 
-          interactive workshops with experts in the field, PEARLS aim to promote 
-          the vital environment of collaboration for improved patient care and outcome.
+      
+      {/* Bagian Paragraf dengan Background Gradien Merah dan Teks Putih */}
+      <div className="flex flex-col gap-6 min-h-screen bg-gradient-to-br from-[#801313] via-[#9a1c1c] to-[#5a0d0d] lg:px-24 lg:py-16 md:p-12 p-6 text-white text-justify text-base/8 shadow-inner">
+        <div className="indent-12 drop-shadow-sm">
+          Mastering Approaches to Treating Emergencies & Reproductive New Advances (MATERNA) appears at the 221st Hippocratic Oath Symposium from the Faculty of Medicine of Sebelas Maret University. MATERNA provides the opportunity to dynamically discuss the latest advancements in addressing obstetric and gynecologic emergencies. Through engaging discussions and interactive workshops with experts in the field, MATERNA aims to promote the vital environment of collaboration for improved patient care and outcome.
         </div>
-        <div className="indent-12">
-          PEARLS 219<sup>th</sup> Hippocratic Oath Symposium features a one-day symposium with 
-          expert speakers, hands-on workshops in regards to critical care and a scientific 
-          poster competition of selected abstracts to present the latest innovation and 
-          research in the field of pediatric emergency.
+        <div className="indent-12 drop-shadow-sm">
+          MATERNA 221<sup>th</sup> Hippocratic Oath Symposium features a one-day symposium with expert speakers, hands-on workshops in regards to maternal critical care, and a scientific poster competition of selected abstracts to present the latest innovation and research in the field of obstetrics and gynecology.
         </div>
       </div>
     </div>
